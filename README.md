@@ -4,6 +4,8 @@
 
 Google maps [ember addon](http://www.emberaddons.com/) easy to consume.
 
+[![Build Status](https://api.travis-ci.org/SamvelRaja/google-maps-addon.svg?branch=master)](https://travis-ci.org/SamvelRaja/google-maps-addon)
+
 [![NPM](https://nodei.co/npm/google-maps-addon.png)](https://nodei.co/npm/google-maps-addon/)
 
 Installation
@@ -70,7 +72,7 @@ mapOptions : {
     latitude : 'Your infowindow latitude if empty will takes up the center latitude',
     longitude : 'Your infowindow longitude if empty will takes up the center longitude',
     maxWidth : 'The maximum width of the infowindow' //in number
-    pixelOffset : 'The offset, in pixels, of the tip of the info window from the point on the map at whose geographical coordinates the info window is anchored. If an InfoWindow is opened with an anchor, the pixelOffset will be calculated from the anchors anchorPoint property. 
+    pixelOffset : 'The offset, in pixels, of the tip of the info window from the point on the map at whose geographical coordinates the info window is anchored. If an InfoWindow is opened with an anchor, the pixelOffset will be calculated from the anchors anchorPoint property.
   }
 
 }
